@@ -1,0 +1,198 @@
+/* Style Navbar*/
+/* Navbar draw lines */
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #000000;
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #ff0000;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+/* Navbar draw lines */
+
+/* navbar toggler */
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* navbar toggler */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.navbar-brand {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+
+.navbar-brand:hover,
+.navbar-brand>span:hover {
+    color: rgb(243, 230, 230) !important;
+}
+
+.nav-link.active {
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+
+
+.nav-link.active:hover {
+    background-color: rgb(243, 230, 230);
+    border-radius: 3px;
+    color: rgb(253, 23, 165) !important;
+}
+
+body {
+    background-color: #0a0809;
+}
+
+.btn.btn-danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 23, 165);
+}
+
+.dropdown-menu {
+    background-color: rgb(3, 3, 3);
+}
+
+
+.dropdown-item {
+    color: rgb(242, 14, 105);
+    font-family: fantasy;
+    font-weight: 100;
+    transition: transform .5s;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(243, 230, 230);
+    transform: scale(0.9);
+    color: rgb(253, 23, 165);
+}
+
+.btn.btn-danger {
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 900;
+    color: rgb(1, 1, 1) !important;
+    transition-duration: 0.8s;
+    transition-duration: linear;
+    box-shadow: 0px 0 0 #f740ae inset;
+    background-color: #EF2F88;
+}
+
+.btn.btn-danger:hover {
+    box-shadow: 100px 0 0 #ffc107 inset;
+}
+
+
+
+.btn.btn-warning {
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 900;
+    color: rgb(1, 1, 1) !important;
+    transition-duration: 0.8s;
+    transition-duration: linear;
+    box-shadow: 0px 0 0 #f740ae inset;
+}
+
+.btn.btn-warning:hover {
+    box-shadow: 100px 0 0 #f740ae inset;
+}
+
+/* Style Navbar*/
+
+/* login */
+.btn-facebook:hover,
+.btn-google:hover,
+.btn-login:hover {
+    opacity: 0.8;
+    background-color: white;
+}
+
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.btn-google {
+    color: white !important;
+    background-color: #ea4335 !important;
+}
+
+.btn-facebook {
+    color: white !important;
+    background-color: #3b5998 !important;
+}
+
+/* login */
+
+/* Footer */
+.btn-floating :hover {
+    color: #f5176c;
+}
+
+.Judul2 a {
+    transition: transform 0.2s ease-in-out !important;
+}
+
+.Judul2 a:hover {
+    color: #f5176c !important;
+    transform: translateX(5px) !important;
+}
+
+.judul:hover {
+    color: white !important;
+}
+
+/* Footer */
+
+
+/* scroolbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #af2626 50%, #440107 100%);
+
+
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #af2626 75%, #440107 100%);
+  }
+  /* scroolbar */
