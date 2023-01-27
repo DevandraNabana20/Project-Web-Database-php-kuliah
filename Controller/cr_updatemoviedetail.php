@@ -64,10 +64,6 @@ try {
     header("Location: ../model/admin/moviedetail/show.php?id=$movieCode&error=movieActors cannot be empty!");
     die();
   }
-  if ($counter > 0) {
-    header("Location: ../model/admin/moviedetail/show.php?id=$movieCode&error=counter cannot be greater than 0!");
-    die();
-  }
   if (empty($adminCode)) {
     header("Location: ../model/admin/moviedetail/show.php?id=$movieCode&error=adminCode cannot be empty!");
     die();
